@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6{
+   
+font-family: 'Roboto', sans-serif;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.navbar{
+    background-color: rgba(0,0,0, 0.3);
+}
+.nav-link{
+    font-size: 19px;
+    padding: 6px 10px;
+    margin: 20px;
+    transition: 0.4s;
+    color: white;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background-color: rgb(18, 123, 209);
+    color: white;
+    transform: scale(1.1);
+}
+header{
+    background-image: url(./banner-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+}
+.banner-container{
+    height: 100vh;
+}
+.banner-contents h1{
+    font-family: 'Handlee', cursive;
+    background-color: rgb(18, 123, 209);
+    padding: 10px 26px;
+    border-radius: 5px;
+    font-size: 40px;
+}
+.navbar-icon{
+    color: white;
+}
+
+.section-title{
+    padding:30px 0px;
+}
+
+/* features start */
+#features{
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+.features-col{
+    border: 1px solid rgb(247, 217, 46);
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: 0.4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px rgb(39, 39, 39);
+}
+.icon-style{
+    background-color: rgb(195, 0, 255);
+    padding: 15px;
+    color: white;
+    margin: 10px 0px;
+}
+/* features end */
+
+/* about-me start */
+#about-me{
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+    margin: auto;
+}
+.basic-desc p{
+    margin-bottom: 0px;
+    font-size: .9rem;
+}
+.achieve-desc span{
+    font-weight: bolder;
+}
+.star{
+    margin-left: 10px;
+    width: 20px;
+}
+/* about-me ends */
+
+
+/* tutorial start */
+#tutorial{
+    padding: 4% 10%;
+    background-color: rgb(55, 177, 177);
+}
+.card{
+    border: 1px solid rgb(214, 47, 75);
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* tutorial end */
+
+
+
+/* feedback start */
+#feedback{
+    padding: 4% 10%;
+    background-color: rgb(24, 219, 219);
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* feedback end */
+
+
+
+/* contact star */
+#contact{
+    padding: 2% 10%;
+    background-color: rgb(24, 219, 219);
+}
+/* contact end */
+
+
+footer{
+    padding: 1% 10%;
+    background-color: rgb(2, 55, 56);
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: white;
+    margin: 0px  10px;
+}
+footer a:hover{
+    color: black;
+}
+
+
+@media (max-width:768px) {
+    .banner-contents h1 {
+        font-size: 25px;
+    }
+}
+
